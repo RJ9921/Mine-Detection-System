@@ -55,7 +55,7 @@ if selected=='Prediction':
     <style>
         .big-font1{
             font-size:50px !important;
-            color:"#007878";
+            color:red;
             text-align:center;
             font-weight:bold;
     </style>
@@ -81,7 +81,7 @@ if selected=='Prediction':
     def main(): 
 
 
-        st.markdown("<h1 style='text-align: center; color: #D80000   ;'>MINE DETECTION SYSTEM</h1>", unsafe_allow_html=True)
+        st.markdown("<h1 style='text-align: center; color: #007878   ;'>MINE DETECTION SYSTEM</h1>", unsafe_allow_html=True)
         #getting the input data from the user
         co1,col2,=st.columns(2)
 
