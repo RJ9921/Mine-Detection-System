@@ -35,7 +35,7 @@ if selected == 'Home':
     <style>
     .big-font1{
     font-size:50px !important;
-    color:#DE3163;
+    color:#DAA520;
     text-align:center;
     font-weight:bold;
     
