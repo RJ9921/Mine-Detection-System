@@ -12,7 +12,7 @@ import numpy as np
 with st.sidebar:
     selected=option_menu(
     menu_title="Main Menu",
-        options=['Home','Prediction'],
+        options=['Home','Mine Prediction'],
         icons=['house','book'],
         styles={
             "container":{"background-color":"#e2ac3f"},
@@ -49,7 +49,7 @@ if selected == 'Home':
 
     
 
-if selected=='Prediction':
+if selected=='Mine Prediction':
 
     st.markdown("""
     <style>
