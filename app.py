@@ -55,7 +55,7 @@ if selected=='Prediction':
     <style>
         .big-font1{
             font-size:50px !important;
-            color:red;
+            color:#007878;
             text-align:center;
             font-weight:bold;
     </style>
