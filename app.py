@@ -46,6 +46,14 @@ if selected == 'Home':
     st.markdown('<p class="big-font1"> WELCOME TO THE MINE DETECTION SYSTEM </p>',unsafe_allow_html=True)
     st.markdown(' <p class="paragraph"> This system about predicting SONAR rocks against Mines with the help of Machine Learning. SONAR is an abbreviated form of Sound Navigation and Ranging. It uses sound waves to detect objects underwater. Machine learning-based tactics, and deep learning-based approaches have applications in detecting sonar signals and hence targets.Fourier transform, wavelet transform, limit cycle, etc. are signal processing methods applicable for an underwater acoustic signal. Machine Learning enables the processing of sonar signals and target detection. It is a subfield of artificial intelligence which tells machines how to manipulate data more proficiently.  </p>',
     unsafe_allow_html=True)
+    file_=open("mine1.png","rb")
+    contents=file_.read()
+    data_url=base64.b64encode(contents).decode("utf-8")
+    file_.close()
+
+    st.markdown(
+        f'<img src="data:image/gif;base64,{data_url}" width="700" image-align="center"  alt="mine">',
+        unsafe_allow_html=True, )
 
     
 
